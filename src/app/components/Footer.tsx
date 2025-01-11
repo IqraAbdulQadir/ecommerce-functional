@@ -55,7 +55,7 @@ const Footer = () => {
 
         {/* Bottom Text */}
         <div className="text-center text-sm mt-6">
-          <p>© 2025 BrandName. All rights reserved.</p>
+          <p>© 2025 EternaLuxe. All rights reserved.</p>
         </div>
       </div>
     </footer>

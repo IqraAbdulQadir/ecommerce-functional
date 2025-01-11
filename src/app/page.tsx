@@ -17,7 +17,7 @@ interface Product {
   image: SanityImageSource;
 }
 
-const HomePage = () => {
+const Home = () => {
   const { addToCart } = useCart(); // Access the addToCart function from the context
   const [cartMessage, setCartMessage] = useState<string>(''); // State for cart feedback
   const [products, setProducts] = useState<Product[]>([]); // State for products
@@ -140,4 +140,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
